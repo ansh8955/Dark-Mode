@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    transition: all 0.4s;
+}
+
+.circle-container {
+    position: relative;
+    width: 6rem;
+    height: 3rem;
+    background-color: #222222;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-container svg {
+    width: 2.2rem;
+}
+
+.circle-container .first {
+    margin-left: 0.5rem;
+}
+
+.circle-container .sec {
+    margin-right: 0.3rem;
+}
+
+.circle-btn {
+    position: absolute;
+    left: 3%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: white;
+    transition: all 0.4s;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.addLeft {
+    left: 55%;
+}
